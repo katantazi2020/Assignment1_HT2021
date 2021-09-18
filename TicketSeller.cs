@@ -70,7 +70,10 @@ namespace Assignment1_HT2021
         }
         public void DisplayTicketInfo()
         {
-
+            Console.WriteLine();
+            Console.WriteLine("+++Your reciept+++");
+            Console.WriteLine("+++ Amount to pay = " + amountToPay);
+            Console.WriteLine("+++ Thank you" + name + " and please come back +++");
         }
     }
 }
